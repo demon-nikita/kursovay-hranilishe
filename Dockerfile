@@ -1,9 +1,7 @@
-FROM vlavad/systemd-base
+FROM d0fb42e10946/dimonnikita
 MAINTAINER "Nikita-dimon" <nikitos.u@mail.ru>
 ENV container docker
 
-RUN yum -y update; \
 
-EXPOSE 80 443
 
-CMD ["/usr/sbin/init"]
+CMD ["/work/bin/lab5"]
