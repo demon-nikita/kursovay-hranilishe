@@ -1,5 +1,5 @@
 FROM d0fb42e10946/dimonnikita
-MAINTAINER "Nikita-dimon" <nikitos.u@mail.ru>
+cd work 
 
 EXPOSE 80 443
 
