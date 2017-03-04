@@ -1,4 +1,4 @@
-FROM d0fb42e10946/dimonnikita
+FROM d0fb42e10946/dimonnik
 WORKDIR /work 
 
 EXPOSE 80 443
